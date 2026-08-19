@@ -7,9 +7,12 @@
 //   finalHTML, and then print finalHTML.
 
 function makePayload(tag){
-    console.log(tag)
+   
     return "<" + tag + ">1</" + tag + ">";
     
 }
 
 
+
+let finalHTML  = makePayload("div");
+console.log(finalHTML);
